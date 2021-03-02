@@ -1,5 +1,24 @@
 {
   "cSpell.words": [
     "hljs"
+  ],
+  "cSpell.ignoreWords": [
+    "a",
+    "btn",
+    "button",
+    "cai",
+    "class",
+    "code",
+    "disabled",
+    "href",
+    "html",
+    "input",
+    "language",
+    "link",
+    "pre",
+    "reset",
+    "submit",
+    "type",
+    "value"
   ]
 }

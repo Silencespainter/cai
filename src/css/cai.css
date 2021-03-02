@@ -1,5 +1,5 @@
 @import "vars.css" screen;
-/* @import "reset.css" screen; */
+@import "reset.css" screen;
 @import "base.css" screen;
 
 /* Basic elements */

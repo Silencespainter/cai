@@ -16,6 +16,7 @@
   background-color: var(--cai-app-color-primaryDark);
   color: var(--cai-app-color-white);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .cai-btn:disabled,
@@ -28,4 +29,7 @@
 .cai-btn.disabled:active {
   filter: grayscale(1);
   cursor: not-allowed;
+  background-color: var(--cai-app-color-primary);
+  color: var(--cai-app-color-white);
+  opacity: 0.75;
 }

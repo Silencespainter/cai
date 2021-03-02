@@ -13,13 +13,9 @@
       crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/css/cai.css">
     <script type="module">
-      import escape from "./src/js/escape.js";
-      document.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll("pre code").forEach((block) => {
-          hljs.highlightBlock(block);
-          escape.html(block, true);
-        });
-      });
+
+      import DOMContentLoaded from "./index.js";
+      DOMContentLoaded();
     </script>
 
     <title>CAI - Framework CSS 100% vanilla</title>
@@ -29,14 +25,14 @@
       <h1 class="">CAI - The Framework CSS 100% Vanilla</h1>
       <p>Create your own framework css with this framework</p>
     </header>
-    <main class="">
+    <main class="repo-main">
+      <!-- buttons -->
       <section>
         <h2>Buttons</h2>
         <main>
           <article>
             <header>
               <h3>Buttons Default</h3>
-              <p>Default buttons and other types</p>
             </header>
             <main>
               <button class="cai-btn" type="button">cai-btn button</button>
@@ -45,12 +41,6 @@
               <a href="#" class="cai-btn">cai-btn Link</a>
             </main>
             <footer>
-              <style>
-                code {
-                  white-space: pre;
-                }
-              </style>
-
               <pre><code class="language-html">
                   <!-- HTML -->
                   <button class="cai-btn" type="button">cai-btn button</button>
@@ -58,7 +48,26 @@
                   <input class="cai-btn" type="reset" value="cai-btn reset" />
                   <a href="#" class="cai-btn">cai-btn Link</a>
                 </code></pre>
-
+            </footer>
+          </article>
+          <article>
+            <header>
+              <h3>Buttons Default disabled</h3>
+            </header>
+            <main>
+              <button class="cai-btn" disabled="disabled" type="button">cai-btn button</button>
+              <input class="cai-btn" disabled="disabled" type="submit" value="cai-btn submit" />
+              <input class="cai-btn" disabled="disabled" type="reset" value="cai-btn reset" />
+              <a href="#" class="cai-btn disabled">cai-btn Link</a>
+            </main>
+            <footer>
+              <pre><code class="language-html">
+                  <!-- HTML -->
+                  <button class="cai-btn" disabled="disabled" type="button">cai-btn button</button>
+                  <input class="cai-btn" disabled="disabled" type="submit" value="cai-btn submit" />
+                  <input class="cai-btn" disabled="disabled" type="reset" value="cai-btn reset" />
+                  <a href="#" class="cai-btn disabled">cai-btn Link</a>
+                </code></pre>
             </footer>
           </article>
         </main>
