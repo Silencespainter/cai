@@ -1,0 +1,31 @@
+.cai-btn {
+  box-shadow: none;
+  border: 0;
+  text-decoration: none;
+  background-color: var(--cai-app-color-primary);
+  color: var(--cai-app-color-white);
+  font-size: var(--cai-app-fontSize-m);
+  padding: var(--cai-app-space-xs) var(--cai-app-space-m);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cai-btn:hover,
+.cai-btn:focus,
+.cai-btn:active {
+  background-color: var(--cai-app-color-primaryDark);
+  color: var(--cai-app-color-white);
+  cursor: pointer;
+}
+
+.cai-btn:disabled,
+.cai-btn.disabled,
+.cai-btn:disabled:hover,
+.cai-btn.disabled:hover,
+.cai-btn:disabled:focus,
+.cai-btn.disabled:focus,
+.cai-btn:disabled:active,
+.cai-btn.disabled:active {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}

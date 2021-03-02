@@ -1,2 +1,3 @@
-# cai - framework css 100% vanilla
-Yes, other framework :D 
+# CAI - framework css 100% vanilla
+
+Create your own framework css with this framework

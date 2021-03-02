@@ -1,0 +1,22 @@
+{
+  "name": "cai",
+  "version": "1.0.0",
+  "description": "Framework CSS 100% vanilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silencespainter/cai.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Nando Muñoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silencespainter/cai/issues"
+  },
+  "homepage": "https://github.com/Silencespainter/cai#readme"
+}

@@ -1,0 +1,32 @@
+/* 
+  VARIABLES
+  Naming: prefix + scope + propertyName + extraInfo (--cai-app-fontFamily-heading)
+  */
+:root {
+  --cai-app-color-primary: blueviolet;
+  --cai-app-color-primaryDark: indigo;
+  --cai-app-color-primaryLight: violet;
+
+  --cai-app-color-secondary: green;
+  --cai-app-color-secondaryDark: darkgreen;
+  --cai-app-color-secondaryLight: yellowgreen;
+
+  --cai-app-color-white: ghostwhite;
+
+  --cai-app-backgroundColor: var(--cai-app-color-white);
+  --cai-app-textColor: var(--cai-app-color-primaryDark);
+  --cai-app-fontFamily-heading: sans-serif;
+  --cai-app-fontFamily-body: sans-serif;
+
+  --cai-app-space-xs: 4px;
+  --cai-app-space-s: 12px;
+  --cai-app-space-m: 16px;
+  --cai-app-space-l: 24px;
+  --cai-app-space-xl: 32px;
+
+  --cai-app-fontSize-xs: 8px;
+  --cai-app-fontSize-s: 12px;
+  --cai-app-fontSize-m: 16px;
+  --cai-app-fontSize-l: 24px;
+  --cai-app-fontSize-xl: 32px;
+}
