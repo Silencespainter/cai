@@ -2,10 +2,10 @@
   box-shadow: none;
   border: 0;
   text-decoration: none;
-  background-color: var(--cai-app-color-primary);
-  color: var(--cai-app-color-white);
-  font-size: var(--cai-app-fontSize-m);
-  padding: var(--cai-app-space-xs) var(--cai-app-space-m);
+  background-color: var(--cai-core-color-primary);
+  color: var(--cai-core-color-white);
+  font-size: var(--cai-core-fontSize-m);
+  padding: var(--cai-core-space-xs) var(--cai-core-space-m);
   display: inline-block;
   vertical-align: middle;
 }
@@ -13,8 +13,8 @@
 .cai-btn:hover,
 .cai-btn:focus,
 .cai-btn:active {
-  background-color: var(--cai-app-color-primaryDark);
-  color: var(--cai-app-color-white);
+  background-color: var(--cai-core-color-primaryDark);
+  color: var(--cai-core-color-white);
   cursor: pointer;
   text-decoration: none;
 }
@@ -29,7 +29,7 @@
 .cai-btn.disabled:active {
   filter: grayscale(1);
   cursor: not-allowed;
-  background-color: var(--cai-app-color-primary);
-  color: var(--cai-app-color-white);
+  background-color: var(--cai-core-color-primary);
+  color: var(--cai-core-color-white);
   opacity: 0.75;
 }

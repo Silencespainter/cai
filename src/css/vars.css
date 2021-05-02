@@ -1,32 +1,32 @@
 /* 
   VARIABLES
-  Naming: prefix + scope + propertyName + extraInfo (--cai-app-fontFamily-heading)
+  Naming: prefix + scope + propertyName + extraInfo (--cai-core-fontFamily-heading)
   */
 :root {
-  --cai-app-color-primary: blueviolet;
-  --cai-app-color-primaryDark: indigo;
-  --cai-app-color-primaryLight: violet;
+  --cai-core-color-primary: blueviolet;
+  --cai-core-color-primaryDark: indigo;
+  --cai-core-color-primaryLight: violet;
 
-  --cai-app-color-secondary: green;
-  --cai-app-color-secondaryDark: darkgreen;
-  --cai-app-color-secondaryLight: yellowgreen;
+  --cai-core-color-secondary: green;
+  --cai-core-color-secondaryDark: darkgreen;
+  --cai-core-color-secondaryLight: yellowgreen;
 
-  --cai-app-color-white: ghostwhite;
+  --cai-core-color-white: ghostwhite;
 
-  --cai-app-backgroundColor: var(--cai-app-color-white);
-  --cai-app-textColor: var(--cai-app-color-primaryDark);
-  --cai-app-fontFamily-heading: sans-serif;
-  --cai-app-fontFamily-body: sans-serif;
+  --cai-core-backgroundColor: var(--cai-core-color-white);
+  --cai-core-textColor: var(--cai-core-color-primaryDark);
+  --cai-core-fontFamily-heading: sans-serif;
+  --cai-core-fontFamily-body: sans-serif;
 
-  --cai-app-space-xs: 4px;
-  --cai-app-space-s: 12px;
-  --cai-app-space-m: 16px;
-  --cai-app-space-l: 24px;
-  --cai-app-space-xl: 32px;
+  --cai-core-space-xs: 4px;
+  --cai-core-space-s: 12px;
+  --cai-core-space-m: 16px;
+  --cai-core-space-l: 24px;
+  --cai-core-space-xl: 32px;
 
-  --cai-app-fontSize-xs: 8px;
-  --cai-app-fontSize-s: 12px;
-  --cai-app-fontSize-m: 16px;
-  --cai-app-fontSize-l: 24px;
-  --cai-app-fontSize-xl: 32px;
+  --cai-core-fontSize-xs: 8px;
+  --cai-core-fontSize-s: 12px;
+  --cai-core-fontSize-m: 16px;
+  --cai-core-fontSize-l: 24px;
+  --cai-core-fontSize-xl: 32px;
 }

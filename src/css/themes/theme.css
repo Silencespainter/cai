@@ -2,17 +2,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
 :root {
-  --cai-app-fontFamily-heading: "Ubuntu", sans-serif;
-  --cai-app-fontFamily-body: "Roboto", sans-serif;
+  --cai-core-fontFamily-heading: "Ubuntu", sans-serif;
+  --cai-core-fontFamily-body: "Roboto", sans-serif;
 }
 body {
-  padding: var(--cai-app-space-m);
+  padding: var(--cai-core-space-m);
 }
 
 .repo-main article {
-  margin-bottom: var(--cai-app-space-m);
+  margin-bottom: var(--cai-core-space-m);
 }
 
 .repo-main article footer {
-  margin-top: var(--cai-app-space-m);
+  margin-top: var(--cai-core-space-m);
 }
